@@ -2,9 +2,9 @@
 import { useTranslation } from 'next-i18next';
 import ImageImport from 'next/image.js';
 import NextLinkImport from 'next/link.js';
-import NextDynamicImport from 'next/dynamic.js';
 import React, { Children, ComponentType, ReactNode } from 'react';
 import { onlyText } from 'react-children-utilities';
+import { Mermaid } from 'mdx-mermaid/Mermaid';
 import {
   Box,
   BoxProps,
@@ -45,14 +45,6 @@ export * from './components/npmBadge';
 
 const Image = getDefault(ImageImport);
 const NextLink = getDefault(NextLinkImport);
-const Dynamic = getDefault(NextDynamicImport);
-
-const Mermaid = Dynamic<React.ComponentProps<typeof import('mdx-mermaid/Mermaid').Mermaid>>(
-  () => import('mdx-mermaid/Mermaid').then(v => v.Mermaid),
-  {
-    ssr: false,
-  }
-);
 
 export function Translated({ children, name }: { children?: ReactNode; name?: string }): ReactNode {
   const { t } = useTranslation('common');
