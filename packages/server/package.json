@@ -27,7 +27,7 @@
   "dependencies": {
     "@guild-docs/mdx-remote": "workspace:^2.0.1",
     "@guild-docs/types": "workspace:^2.0.0",
-    "@stefanprobst/remark-shiki": "2.1.0",
+    "@stefanprobst/rehype-shiki": "2.2.0",
     "github-slugger": "1.4.0",
     "globby": "13.1.1",
     "gray-matter": "4.0.3",
