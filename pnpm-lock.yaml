@@ -209,7 +209,7 @@ importers:
       react-children-utilities: 2.7.1
       react-dom: 17.0.2
       react-icons: 4.3.1
-      react-intersection-observer: 8.34.0
+      react-intersection-observer: 9.1.0
       react-sticky-box: 1.0.2
       react-use: 17.3.2
       remove-markdown: 0.3.0
@@ -224,7 +224,7 @@ importers:
       mermaid: 8.11.5
       nprogress: 0.2.0
       react-children-utilities: 2.7.1_react@17.0.2
-      react-intersection-observer: 8.34.0_react@17.0.2
+      react-intersection-observer: 9.1.0_react@17.0.2
       react-sticky-box: 1.0.2_react@17.0.2
       remove-markdown: 0.3.0
       use-immer: 0.7.0_immer@9.0.12+react@17.0.2
@@ -8116,8 +8116,8 @@ packages:
     transitivePeerDependencies:
       - algoliasearch
 
-  /react-intersection-observer/8.34.0_react@17.0.2:
-    resolution: {integrity: sha512-TYKh52Zc0Uptp5/b4N91XydfSGKubEhgZRtcg1rhTKABXijc4Sdr1uTp5lJ8TN27jwUsdXxjHXtHa0kPj704sw==}
+  /react-intersection-observer/9.1.0_react@17.0.2:
+    resolution: {integrity: sha512-XSDWQGzgJ4/B4eW39+qa3S+uc4Gb+m6lxXR54m/uD5lqeL5sLrgYdntbjl4BlTYAblgUhz+JB5obINhZaD+c0Q==}
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0
     dependencies:
